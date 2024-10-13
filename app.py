@@ -38,7 +38,7 @@ def tan(x):
 # Streamlit app
 def scientific_calculator_app():
     st.title("Scientific Calculator")
-   st.image("calculator.jpg", caption="Scientific Calculator", use_column_width=True)
+    st.image("calculator.jpg", caption="Scientific Calculator", use_column_width=True)
 
     # Input for first number
     num1 = st.number_input("Enter first number", value=0.0)
